@@ -1,0 +1,120 @@
+body{
+    margin: 0px;
+    background: #222;
+    font-family: cursive;
+  
+  }
+  
+  .contain{
+    width: 80%;
+    margin: 0 auto;
+  }
+  
+  header{
+    background: #55d6aa;
+  }
+  
+  header::after{
+    content: '';
+    display: table;
+    clear: both;
+  }
+  
+  .logo{
+    float: left;
+  }
+  
+  nav{
+    float: right;
+    font-size: 20px;
+    font-weight: bold;
+  
+  }
+  
+  nav ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  
+  }
+  
+  nav li{
+    display: inline-block;
+    margin-left: 70px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    position: relative;
+  }
+  
+  nav ul > li > a{
+    color: #222;
+    text-decoration: none;
+    text-transform: uppercase;
+  }
+  
+  nav a:hover{
+    color: #000;
+  }
+  
+  #description{
+    font-family: cursive;
+    font-size: 30px;
+    font-weight: bold;
+    color: white;
+  }
+  
+  nav a::before {
+    content: '';
+    display: block;
+    height: 5px;
+    width: 0%;
+    background-color: #222;
+    position: absolute;
+    top: 0;
+    transition: all ease-in-out 300ms;
+  }
+  
+  nav a:hover::before{
+    width: 100%;
+    background-color: #222;
+  }
+  
+  #my{
+    color: white;
+    font-size: 30px;
+  }
+  #my1{
+    color: white;
+    font-size: 25px;
+  }
+  
+  .container {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+  .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #222;
+    font-size: 30px;
+    font-weight: bold;
+  }
+  #youtube{
+    font-size: 35px;
+  }
+  #youtube a{
+    color: rgb(173, 230, 19);
+    text-decoration: none;
+    font-size: 35px;
+  }
+  #twitter{
+    font-size: 35px;
+  }
+  #twitter a{
+    color: rgb(173, 230, 19);
+    text-decoration: none;
+    font-size: 35px;
+  }
